@@ -26,6 +26,7 @@ const GamePage = () => {
         modalOpen={modalOpen}
         setModalOpen={setModalOpen}
         modalImage={modalImage}
+        setModalImage={setModalImage}
       />
       <GameDetailDisplay gameDetails={specificGameData} isLoading={isLoading} />
       <GameDescriptionAndImages

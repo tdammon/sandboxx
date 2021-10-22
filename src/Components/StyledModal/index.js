@@ -6,6 +6,7 @@ export const StyledModal = ({
   modalOpen,
   modalID,
   setModalOpen,
+  setModaImage,
 }) => {
   return (
     <div
@@ -24,7 +25,10 @@ export const StyledModal = ({
             <button
               className="button-x"
               type="button"
-              onClick={() => setModalOpen(false)}>
+              onClick={() => {
+                setModalOpen(false);
+                setModaImage({});
+              }}>
               X
             </button>
           </div>
