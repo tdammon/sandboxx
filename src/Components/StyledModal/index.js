@@ -14,7 +14,11 @@ export const StyledModal = ({
       <div
         className="modal-container"
         aria-labelledby={`modal-body-${modalID}`}>
-        <img src={modalImage.image} alt="" className="modal-image" />
+        <img
+          src={modalImage.image}
+          alt="modal-screenshot"
+          className="modal-image"
+        />
         <div id={`modal-body-${modalID}`} className="modal-body">
           <div className="modal-title">
             <button

@@ -22,7 +22,7 @@ export const StyledCard = ({
       role="button"
       tabIndex="0"
       onKeyDown={(event) => handleKeyPress(event)}>
-      <img src={thumbnail} alt="" className="card-image" />
+      <img src={thumbnail} alt="thumbnail for card" className="card-image" />
       <div className="card-title">{title}</div>
     </div>
   );
